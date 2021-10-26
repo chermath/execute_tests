@@ -1,3 +1,3 @@
 #!/bin/bash
-ls -lah / > ls.history
-ps > ps.history
+echo `ls -lah /` > ls.history
+echo `ps` > ps.history
