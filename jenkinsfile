@@ -1,0 +1,15 @@
+pipeline {
+	agent any
+
+	stages {
+		stage('RUN') {
+		steps {
+			sh 'echo "elo 3 2 0"'
+			}
+
+		}
+		
+	}
+
+
+}
